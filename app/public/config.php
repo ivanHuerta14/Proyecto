@@ -1,10 +1,10 @@
 <?php
 header('Content-Type: application/json'); // Asegura que el contenido siempre sea JSON
 
-$servername = "localhost";
+$servername = "mysql.railway.internal";
 $username = "root"; 
-$password = ""; 
-$dbname = "registros_db";
+$password = "DCvjDOIGUCwYoFiXobhzovSHpJjgHMlq"; 
+$dbname = "railway";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
