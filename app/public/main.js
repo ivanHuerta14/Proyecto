@@ -7,7 +7,7 @@ function loadTableData() {
     searchQuery = $('#searchInput').val() || '';
     
     $.ajax({
-        url: `api.php?action=read&search=${searchQuery}&column=${sortColumn}&order=${sortOrder}&page=${currentPage}`,
+        url: `public/api.php?action=read&search=${searchQuery}&column=${sortColumn}&order=${sortOrder}&page=${currentPage}`,
         method: 'GET',
         dataType: 'json',
         success: function(data) {
