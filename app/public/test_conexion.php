@@ -1,7 +1,8 @@
 <?php
 // Encabezado para indicar que devolverá JSON
 header('Content-Type: application/json');
-
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 $servername = "mysql.railway.internal"; // Cambia si el host es diferente
 $username = "root";
 $password = "oITCyqdDrKLahVSiokoCVBgxAJkwZoXW";
