@@ -3,7 +3,7 @@ header('Content-Type: application/json'); // Asegura que el contenido siempre se
 
 $servername = "mysql.railway.internal";
 $username = "root"; 
-$password = "DCvjDOIGUCwYoFiXobhzovSHpJjgHMlq"; 
+$password = "oITCyqdDrKLaHvSIokoCVBgxAJkwZoXW"; 
 $dbname = "railway";
 
 try {
